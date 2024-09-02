@@ -1,0 +1,27 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binking": "^2.0.13",
+    "card-validator": "^10.0.0",
+    "inputmask": "^5.0.9",
+    "redom": "^4.1.5",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "parcel-plugin-clean-easy": "^1.0.2"
+  },
+  "parcelCleanPaths": [
+    "dist",
+    ".cache"
+  ]
+}
